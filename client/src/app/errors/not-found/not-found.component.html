@@ -1,0 +1,9 @@
+<div class="container">
+  <h1 class="mb-3">Not found</h1>
+  <button
+    class="btn btn-info btn-lg"
+    routerLink="{{ isLoggedIn ? '/members' : '/' }}"
+  >
+    {{ isLoggedIn ? "Return to members page" : "Return to home page" }}
+  </button>
+</div>
